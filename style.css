@@ -1,0 +1,71 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  /* background: linear-gradient(to left, #241d22, #434343,#241d1d);   */
+  background-image:    url("https://wallpaperaccess.com/full/1216331.jpg");
+	background-size:     cover;                    
+	background-repeat:   no-repeat;
+	background-position: center center;
+	background-attachment: fixed;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 44px;
+  text-align: center;
+  
+}
+
+.colon{
+  font-size: 72px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:crimson;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.bracket{
+  color:orangered;
+  display: inline-block;
+  margin: 0px;
+  padding: 40px;
+  font-size: 72px;
+}
+
+.description {
+  transition: 0.9s ease-in-out;
+}
+
+.img1 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 20%;
+  height: 20%;  
+}
+
+.message {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 50px;
+  color:#04D9C4;
+}
+
+.session {
+  color: #F27649;
+  font-family:monospace;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hour,
+.minute,
+.second,
+.millisecond {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 72px;
+  font-weight: 800;
+  color:rgb(255, 166, 0) ;
+
+}
+.centeroid{
+  margin-left: 80px;
+}
